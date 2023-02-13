@@ -24,4 +24,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./ARM-Templates/container-webapp-template.json
-        parameters: webAppName=WTHApp-${{ env.targetEnv }}
+        parameters: webAppName=WTHApp-456782SP
+        #parameters: webAppName=WTHApp-${{ env.targetEnv }}
